@@ -79,6 +79,61 @@ public class Picture
             sun.changeColor("black");
         }
     }
+        
+    /**
+     * move sun
+     */
+    public void moveSun()
+    {
+        
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        
+        
+       
+     
+        
+        
+      
+    }
 
     /**
      * Change this picture to use color display
@@ -94,3 +149,4 @@ public class Picture
         }
     }
 }
+       
