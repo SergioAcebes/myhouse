@@ -15,6 +15,7 @@ public class Picture
     private Square window;
     private Triangle roof;
     private Circle sun;
+    private Circle prao;
 
     /**
      * Constructor for objects of class Picture
@@ -29,6 +30,13 @@ public class Picture
      */
     public void draw()
     {
+        prao = new Circle();
+        prao.changeColor("green");
+        prao.moveHorizontal(-600);
+        prao.moveVertical(120);
+        prao.changeSize(1200);
+        prao.makeVisible();
+        
         wall = new Square();
         wall.moveHorizontal(-140);
         wall.moveVertical(20);
@@ -52,8 +60,104 @@ public class Picture
         sun.changeColor("yellow");
         sun.moveHorizontal(100);
         sun.moveVertical(-40);
-        sun.changeSize(80);
+        sun.changeSize(60);
         sun.makeVisible();
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        sun.slowMoveVertical(2);
+        sun.slowMoveHorizontal(2);
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     }
 
     /**
